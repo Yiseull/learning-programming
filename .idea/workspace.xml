@@ -5,67 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a108320-fada-42e6-9e52-04621b4a203a" name="Changes" comment="[kafka] feat: kafka producer, consumer 설정 및 메시지 전송/수신 테스트">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/consumer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/consumer.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/consumer.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/producer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/producer.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/producer.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/05efc8b1657769a27696d478ded1e95f38737233" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/28d6f8174b272212bf76fefe1337e5d61a9a8fc6" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a45a911a8f1836b0b6c5b758962572012d8f8c3" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2bd5b444625f73def14cdfe1f0c7ccff57bf9abb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/3740e823db02f188568b75d65e0d23ad7bb00e41" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b3569d537503bced689c623d83489df6ca87755" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7ce9844dd3e1f81563ef5ac7ef01e4d01d0c7cda" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86bcdc7b774e515280e47502b2bbe99c81d7dc64" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/8964d9c51d6ad1faceb34831ab7dae21c03f80e4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aabff48b6130ded1a346f5f8a06a3bb24fe09398" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b67f339bcdcc6085621b4176640b84bd1d7ebe51" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e56e11108471b3966674dd0af37cb925d512d5a2" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/b/6b3569d537503bced689c623d83489df6ca87755" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/6/86bcdc7b774e515280e47502b2bbe99c81d7dc64" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/9/8964d9c51d6ad1faceb34831ab7dae21c03f80e4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/a/aabff48b6130ded1a346f5f8a06a3bb24fe09398" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/6/b67f339bcdcc6085621b4176640b84bd1d7ebe51" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/5/e56e11108471b3966674dd0af37cb925d512d5a2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-consumer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-consumer/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-consumer/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-consumer/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-consumer/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-consumer/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-consumer/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-consumer/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-consumer/src/main/java/com/kafka/consumer/KafkaConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-consumer/src/main/java/com/kafka/consumer/KafkaConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-consumer/src/main/java/com/kafka/consumer/KafkaConsumerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-consumer/src/test/java/com/kafka/consumer/KafkaConsumerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-producer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-producer/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-producer/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-producer/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-producer/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-producer/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-producer/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-producer/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-producer/src/main/java/com/kafka/producer/KafkaProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-producer/src/main/java/com/kafka/producer/KafkaProducerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-producer/src/main/java/com/kafka/producer/KafkaProducerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-producer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-producer/src/test/java/com/kafka/producer/KafkaProducerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-producer/src/test/java/com/kafka/producer/KafkaProducerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,6 +110,10 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/kafka-producer" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -288,7 +241,17 @@
       <updated>1716013205443</updated>
       <workItem from="1716013206878" duration="3735000" />
       <workItem from="1716021464858" duration="6737000" />
+      <workItem from="1716039638736" duration="347000" />
     </task>
+    <task id="LOCAL-00001" summary="[kafka] feat: kafka producer, consumer 설정 및 메시지 전송/수신 테스트">
+      <option name="closed" value="true" />
+      <created>1716039878722</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716039878722</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
