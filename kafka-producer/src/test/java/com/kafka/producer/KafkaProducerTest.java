@@ -1,5 +1,7 @@
 package com.kafka.producer;
 
+import java.util.Map;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -12,6 +14,7 @@ class KafkaProducerTest {
 
 	@Test
 	void testSendMessage() {
-		kafkaProducer.sendMessage("Hello World!");
+		kafkaProducer.sendMessage("yiseul-normal", "저는 일반 고객입니다.");
+		kafkaProducer.sendMessage("sul-premium", "설이(우리집 강아지임)는 프리미엄 고객입니다.");
 	}
 }
